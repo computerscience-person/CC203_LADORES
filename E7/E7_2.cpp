@@ -40,4 +40,6 @@ auto main() -> int {
       BusinessClassTicket("Deyb", "Davao", "Batangas", 15438, 150000, 32);
   cout << "Davao to Batangas Business Price (in centavos): "
        << ticket2.getPrice() << "\n";
+  cout << "Davao to Batangas Price (in centavos): "
+       << ticket2.Ticket::getPrice() << "\n";
 }
